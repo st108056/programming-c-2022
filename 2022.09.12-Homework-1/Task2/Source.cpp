@@ -1,15 +1,13 @@
 #include<iostream>
 
-using namespace std;
-
 int main(int argc, char* argv[])
 {
 	int n = 0;
 	int k = 0;
 
-	cin >> n >> k;
+	std::cin >> n >> k;
 
-	cout << k / n << endl;
+	std::cout << k / n << std::endl;
 
 	return EXIT_SUCCESS;
 }
