@@ -22,18 +22,7 @@ int main(int argc, char* argv[])
 	}
 	else 
 	{
-		if (b == 0)
-		{	
-			if (d == 0)
-			{
-				std::cout << "NO";
-			}
-			else if (d != 0)
-			{
-				std::cout << 0;
-			}
-		}
-		else if (b * c != d * a)
+		if (b * c != d * a)
 		{	
 			if (b % a == 0)
 			{
