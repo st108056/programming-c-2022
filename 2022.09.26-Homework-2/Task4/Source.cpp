@@ -13,14 +13,7 @@ int main(int argc, char* argv[])
 	{
 		if (b == 0) 
 		{
-			if (c == 0)
-			{
-				std::cout << "INF";
-			}
-			else
-			{
-				std::cout << "INF";
-			}
+			std::cout << "INF";
 		}
 		else
 		{
