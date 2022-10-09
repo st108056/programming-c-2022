@@ -26,44 +26,44 @@ int main(int argc, char* argv[])
 		std::cout << "chetyresta ";
 		break;
 	case 5:
-		std::cout << "pyatsot ";
+		std::cout << "pyat'sot ";
 		break;
 	case 6:
-		std::cout << "shestsot ";
+		std::cout << "shest'sot ";
 		break;
 	case 7:
-		std::cout << "semsot ";
+		std::cout << "sem'sot ";
 		break;
 	case 8:
-		std::cout << "vosemsot ";
+		std::cout << "vosem'sot ";
 		break;
 	case 9:
-		std::cout << "devyatsot ";
+		std::cout << "devyat'sot ";
 		break;
 	}
 
 	switch (d)
 	{
 	case 2:
-		std::cout << "dvadtsat ";
+		std::cout << "dvadtsat' ";
 		break;
 	case 3:
-		std::cout << "tridtsat ";
+		std::cout << "tridtsat' ";
 		break;
 	case 4:
 		std::cout << "sorok ";
 		break;
 	case 5:
-		std::cout << "pyatdesyat ";
+		std::cout << "pyat'desyat ";
 		break;
 	case 6:
-		std::cout << "shestdesyat ";
+		std::cout << "shest'desyat ";
 		break;
 	case 7:
-		std::cout << "semdesyat ";
+		std::cout << "sem'desyat ";
 		break;
 	case 8:
-		std::cout << "vosemdesyat ";
+		std::cout << "vosem'desyat ";
 		break;
 	case 9:
 		std::cout << "devyanosto ";
@@ -72,34 +72,34 @@ int main(int argc, char* argv[])
 		switch (i)
 		{
 		case 0:
-			std::cout << "desyat ";
+			std::cout << "desyat' ";
 			break;
 		case 1:
-			std::cout << "odinnadtsat ";
+			std::cout << "odinnadtsat' ";
 			break;
 		case 2:
-			std::cout << "dvenadtsat ";
+			std::cout << "dvenadtsat' ";
 			break;
 		case 3:
-			std::cout << "trinadtsat ";
+			std::cout << "trinadtsat' ";
 			break;
 		case 4:
-			std::cout << "chetyrnadtsat ";
+			std::cout << "chetyrnadtsat' ";
 			break;
 		case 5:
-			std::cout << "pyatnadtsat ";
+			std::cout << "pyatnadtsat' ";
 			break;
 		case 6:
-			std::cout << "shestnadtsat ";
+			std::cout << "shestnadtsat' ";
 			break;
 		case 7:
-			std::cout << "semnadtsat ";
+			std::cout << "semnadtsat' ";
 			break;
 		case 8:
-			std::cout << "vosemnadtsat ";
+			std::cout << "vosemnadtsat' ";
 			break;
 		case 9:
-			std::cout << "devyatnadtsat";
+			std::cout << "devyatnadtsat' ";
 			break;
 		}
 		break;
@@ -122,19 +122,19 @@ int main(int argc, char* argv[])
 			std::cout << "chetyre ";
 			break;
 		case 5:
-			std::cout << "pyat ";
+			std::cout << "pyat' ";
 			break;
 		case 6:
-			std::cout << "shest ";
+			std::cout << "shest' ";
 			break;
 		case 7:
-			std::cout << "sem ";
+			std::cout << "sem' ";
 			break;
 		case 8:
-			std::cout << "vosem ";
+			std::cout << "vosem' ";
 			break;
 		case 9:
-			std::cout << "devyat ";
+			std::cout << "devyat' ";
 			break;
 		}
 	}
