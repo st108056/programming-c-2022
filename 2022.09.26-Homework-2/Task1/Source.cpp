@@ -1,9 +1,7 @@
 #include<iostream>
-#include<locale.h>
 
 int main(int argc, char* argv[])
 {
-	setlocale(LC_ALL, "Russian");
 
 	int a = 0;
 	
@@ -16,92 +14,92 @@ int main(int argc, char* argv[])
 	switch (h)
 	{
 	case 1:
-		std::cout << "сто ";
+		std::cout << "sto ";
 		break;
 	case 2:
-		std::cout << "двести ";
+		std::cout << "dvesti ";
 		break;
 	case 3:
-		std::cout << "триста ";
+		std::cout << "trista ";
 		break;
 	case 4:
-		std::cout << "четыреста ";
+		std::cout << "chetyresta ";
 		break;
 	case 5:
-		std::cout << "пятьсот ";
+		std::cout << "pyatsot ";
 		break;
 	case 6:
-		std::cout << "шестьсот ";
+		std::cout << "shestsot ";
 		break;
 	case 7:
-		std::cout << "семьсот ";
+		std::cout << "semsot ";
 		break;
 	case 8:
-		std::cout << "восемьсот ";
+		std::cout << "vosemsot ";
 		break;
 	case 9:
-		std::cout << "девятьсот ";
+		std::cout << "devyatsot ";
 		break;
 	}
 
 	switch (d)
 	{
 	case 2:
-		std::cout << "двадцать ";
+		std::cout << "dvadtsat ";
 		break;
 	case 3:
-		std::cout << "тридцать ";
+		std::cout << "tridtsat ";
 		break;
 	case 4:
-		std::cout << "сорок ";
+		std::cout << "sorok ";
 		break;
 	case 5:
-		std::cout << "пятьдесят ";
+		std::cout << "pyatdesyat ";
 		break;
 	case 6:
-		std::cout << "шестьдесят ";
+		std::cout << "shestdesyat ";
 		break;
 	case 7:
-		std::cout << "семьдесят ";
+		std::cout << "semdesyat ";
 		break;
 	case 8:
-		std::cout << "восемьдесят ";
+		std::cout << "vosemdesyat ";
 		break;
 	case 9:
-		std::cout << "девяносто ";
+		std::cout << "devyanosto ";
 		break;
 	case 1:
 		switch (i)
 		{
 		case 0:
-			std::cout << "десять ";
+			std::cout << "desyat ";
 			break;
 		case 1:
-			std::cout << "одиннадцать ";
+			std::cout << "odinnadtsat ";
 			break;
 		case 2:
-			std::cout << "двенадцать ";
+			std::cout << "dvenadtsat ";
 			break;
 		case 3:
-			std::cout << "тринадцать ";
+			std::cout << "trinadtsat ";
 			break;
 		case 4:
-			std::cout << "четырнадцать ";
+			std::cout << "chetyrnadtsat ";
 			break;
 		case 5:
-			std::cout << "пятнадцать ";
+			std::cout << "pyatnadtsat ";
 			break;
 		case 6:
-			std::cout << "шестнадцать ";
+			std::cout << "shestnadtsat ";
 			break;
 		case 7:
-			std::cout << "семьнадцать ";
+			std::cout << "semnadtsat ";
 			break;
 		case 8:
-			std::cout << "восемьнадцать ";
+			std::cout << "vosemnadtsat ";
 			break;
 		case 9:
-			std::cout << "девятнадцать";
+			std::cout << "devyatnadtsat";
 			break;
 		}
 		break;
@@ -112,46 +110,46 @@ int main(int argc, char* argv[])
 		switch (i)
 		{
 		case 1:
-			std::cout << "один ";
+			std::cout << "odin ";
 			break;
 		case 2: 
-			std::cout << "два ";
+			std::cout << "dva ";
 			break;
 		case 3:
-			std::cout << "три ";
+			std::cout << "tri ";
 			break;
 		case 4:
-			std::cout << "четыре ";
+			std::cout << "chetyre ";
 			break;
 		case 5:
-			std::cout << "пять ";
+			std::cout << "pyat ";
 			break;
 		case 6:
-			std::cout << "шесть ";
+			std::cout << "shest ";
 			break;
 		case 7:
-			std::cout << "семь ";
+			std::cout << "sem ";
 			break;
 		case 8:
-			std::cout << "восемь ";
+			std::cout << "vosem ";
 			break;
 		case 9:
-			std::cout << "девять ";
+			std::cout << "devyat ";
 			break;
 		}
 	}
 
 	if (i == 1 && d != 1)
 	{
-		std::cout << "банан";
+		std::cout << "banan";
 	}
 	else if (i > 1 && i < 5 && d != 1)
 	{
-		std::cout << "банана";
+		std::cout << "banana";
 	}
 	else
 	{
-		std::cout << "бананов";
+		std::cout << "bananov";
 	}
 
 	return EXIT_SUCCESS;
