@@ -1,5 +1,4 @@
 #include<iostream>
-#include<math.h>
 
 int main(int argc, char* argv[])
 {
@@ -9,7 +8,7 @@ int main(int argc, char* argv[])
 
 	std::cin >> x;
 
-	for (int i = 1; i < sqrt(x) + 1; ++i)
+	for (int i = 1; i * i <= x; ++i)
 	{
 		if (x % i == 0)
 		{
