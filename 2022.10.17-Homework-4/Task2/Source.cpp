@@ -2,28 +2,20 @@
 
 int main(int argc, char* argv[])
 {
-	int a = 0;
-	unsigned int x = 0;
+	long n = 0;
+	int cnt = 0;
 	int c = 1;
-	int t = 1;
 
-	std::cin >> a;
+	std::cin >> n;
 
-	for (int i = 9; i >= 0; --i)
+	for (; n > 0;)
 	{
-		c = 1;
-		t = 1;
-		for (int j = 1; j <= i; ++j)
-		{
-			c = c * 10;
-			t = t * 2;
-		}
-
-		x = x + (a / c) * t;
-		a = a - (a / c) * c;
+		cnt += (n % 10) * c;
+		n /= 10;
+		c *= 2;
 	}
 
-	std::cout << x;
+	std::cout << cnt;
 
 	return EXIT_SUCCESS;
 }
