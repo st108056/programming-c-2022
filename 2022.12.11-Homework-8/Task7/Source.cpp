@@ -1,19 +1,17 @@
 #include<iostream>
 #include<cstring>
 
-int maxdig(char* s, int n, int max)
+void stars(char* s, int n)
 {
-	if (n == 1000)
+	if (n == strlen(s) - 1)
 	{
-		return max;
+		std::cout << s[n];
+		return;
 	}
 	else
 	{
-		if (int(s[n]) - 48 > max)
-		{
-			max = s[n] - 48;
-		}
-		return maxdig(s, n + 1, max);
+		std::cout << s[n] << '*';
+		return stars(s, n + 1);
 	}
 }
 
@@ -24,7 +22,7 @@ int main(int argc, char* argv[])
 
 	std::cin.getline(s, 1000);
 
-	std::cout << maxdig(s, 0, 0);
+	stars(s, 0);
 
 	delete[] s;
 
