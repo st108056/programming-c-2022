@@ -7,18 +7,25 @@ int main(int argc, char* argv[])
 	std::cin >> n;
 
 	int* c = new int[n] { 0 };
+	int* d = new int[n] { 0 };
 
 	for (int i = 0; i < n; ++i)
 	{
 		std::cin >> c[i];
 	}
 
-	for (int i = n - 1; i >= 0; --i)
+	for (int i = 0; i < n; ++i)
 	{
-		std::cout << c[i] << " ";
+		d[i] = c[n - i - 1];
 	}
 
-	delete[]c;
+	for (int i = 0; i < n; ++i)
+	{
+		std::cout << d[i] << " ";
+	}
+
+	delete[] c;
+	delete[] d;
 
 	return EXIT_SUCCESS;
 }

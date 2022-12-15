@@ -30,6 +30,8 @@ int main(int argc, char* argv[])
 	sum += lastcost * (1 + lasti);
 
 	std::cout << sum;
+	
+	delete[] c;
 
 	return EXIT_SUCCESS;
 }

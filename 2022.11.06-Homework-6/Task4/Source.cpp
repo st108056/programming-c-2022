@@ -43,8 +43,8 @@ int main(int argc, char* argv[])
 		std::cout << m[i] << " ";
 	}
 
-	delete[]m;
-	delete[]t;
+	delete[] m;
+	delete[] t;
 
 	return EXIT_SUCCESS;
 }

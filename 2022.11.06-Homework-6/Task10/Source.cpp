@@ -57,8 +57,8 @@ int main(int argc, char* argv[])
 		}
 	}
 	
-	delete[]a;
-	delete[]b;
+	delete[] a;
+	delete[] b;
 	
 	for (int i = 0; i < cnt + 1; ++i)
 	{
@@ -78,7 +78,7 @@ int main(int argc, char* argv[])
 		std::cout << c[i] << " ";
 	}
 
-	delete[]c;
+	delete[ ]c;
 
 	return EXIT_SUCCESS;
 }

@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
 	}
 
 
-	delete[]c;
+	delete[] c;
 
 	return EXIT_SUCCESS;
 }

@@ -1,28 +1,53 @@
 #include<iostream>
 
-void reverse(int n, int* c)
-{
-	n = n - 1;
-	if (n < 0)
-	{
-		return;
-	}
-	std::cout << c[n] << " ";
-	reverse(n, c);
-}
-
 int main(int argc, char* argv[])
 {
-	int n = 0;
-	std::cin >> n;
-	int* c = new int[n] { 0 };
-	for (int i = 0; i < n; ++i)
+	int i = 0;
+	int j = 0;
+	int fi = 0;
+	int fj = 0;
+	int a = 0;
+	int b = 1;
+	int c = 0;
+	int max = 1;
+
+	std::cin >> i >> j;
+
+	for (int t = 1; t < i + j; t++)
 	{
-		std::cin >> c[i];
+		c = b;
+		b = a + b;
+		a = c;
+		if (t == i - 1)
+		{
+			fi = b;
+		}
+		if (t == j - 1)
+		{
+			fj = b;
+		}
+		if (fi > 0 && fj > 0)
+		{
+			break;
+		}
 	}
 
-	reverse(n, c);
+	if (fi > fj)
+	{
+		c = fi;
+		fi = fj;
+		fj = c;
+	}
 
-	delete[] c;
+	for (int t = 1; t <= fi; t++)
+	{
+		if ((fi % t == 0) && (fj % t == 0))
+		{
+			max = t;
+		}
+	}
+
+	std::cout << max % 1000000000;
+
 	return EXIT_SUCCESS;
 }

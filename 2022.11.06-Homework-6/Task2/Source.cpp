@@ -34,9 +34,9 @@ int main(int argc, char* argv[])
 		std::cout << std::endl;
 	}
 
-	delete[]c;
-	delete[]i;
-	delete[]j;
+	delete[] c;
+	delete[] i;
+	delete[] j;
 
 	return EXIT_SUCCESS;
 }

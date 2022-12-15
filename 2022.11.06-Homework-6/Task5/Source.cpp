@@ -27,7 +27,7 @@ int main(int argc, char* argv[])
 		std::cout << c[i] << " ";
 	}
 
-	delete[]c;
+	delete[] c;
 
 	return EXIT_SUCCESS;
 }

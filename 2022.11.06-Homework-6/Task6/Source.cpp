@@ -48,7 +48,7 @@ int main(int argc, char* argv[])
 		std::cout << "NO";
 	}
 
-	delete[]c;
+	delete[] c;
 
 	return EXIT_SUCCESS;
 }
